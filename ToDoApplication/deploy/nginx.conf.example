@@ -1,0 +1,16 @@
+# /etc/nginx/sites-available/todoapp に配置し、
+# ln -s /etc/nginx/sites-available/todoapp /etc/nginx/sites-enabled/ で有効化する想定の例。
+# server_name は実際のドメイン名に置き換えること。
+
+server {
+    listen 80;
+    server_name your-domain.example.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}

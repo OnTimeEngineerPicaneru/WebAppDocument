@@ -1,0 +1,28 @@
+# 環境変数(本物のSECRET_KEYなどが入るため、絶対にコミットしない)
+.env
+.env.production
+.env.*.local
+
+# データベースファイル
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 仮想環境
+venv/
+.venv/
+env/
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
