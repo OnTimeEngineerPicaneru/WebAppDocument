@@ -7,6 +7,7 @@ from flask import Flask
 from flask_migrate import Migrate
 from models import db, User
 from flask_login import LoginManager
+from flask_wtf.csrf import CSRFProtect
 
 app = Flask(__name__)
 
@@ -15,6 +16,7 @@ app.config.from_object("config.Config")
 
 db.init_app(app)
 migrate = Migrate(app, db)  # テーブル構造の変更を管理するマイグレーションツール
+csrf = CSRFProtect(app)
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -27,7 +29,7 @@ def load_user(user_id):
 
     Flask-Loginがログイン状態のユーザーを復元するために自動的に呼び出す。
     """
-    return User.query.get(int(user_id))
+    return db.session.get(User, int(user_id))
 
 
 # views.pyのルーティングを読み込む(*ですべての関数をインポート)
