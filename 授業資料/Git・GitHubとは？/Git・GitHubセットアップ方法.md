@@ -2,7 +2,7 @@
 
 > Git＝ローカルでの履歴管理ツール
 
-![gitの画像](授業資料/Git・GitHubとは？/Pasted image 20260719164509.png)
+![alt text](https://github.com/OnTimeEngineerPicaneru/WebAppDocument/blob/main/%E6%8E%88%E6%A5%AD%E8%B3%87%E6%96%99/Git%E3%83%BBGitHub%E3%81%A8%E3%81%AF%EF%BC%9F/Pasted%20image%2020260719164509.png)
 
 ファイルの変更管理履歴を記録・管理するためのツールです。
 ローカル環境で履歴の確認や切り戻し、ブランチなどの作業ができます。
