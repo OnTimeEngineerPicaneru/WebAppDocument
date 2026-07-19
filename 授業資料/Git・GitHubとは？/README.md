@@ -1,3 +1,5 @@
+# GitとGitHubについて
+
 ## Gitとは？
 
 > Git＝ローカルでの履歴管理ツール
@@ -7,7 +9,8 @@
 ファイルの変更管理履歴を記録・管理するためのツールです。
 ローカル環境で履歴の確認や切り戻し、ブランチなどの作業ができます。
 **自分のPCの中で履歴を管理する**のがポイントです。
-![[Pasted image 20260719164600.png|317]]
+
+![alt text](https://github.com/OnTimeEngineerPicaneru/WebAppDocument/blob/main/%E6%8E%88%E6%A5%AD%E8%B3%87%E6%96%99/Git%E3%83%BBGitHub%E3%81%A8%E3%81%AF%EF%BC%9F/Pasted%20image%2020260719164600.png)
 
 インストールはコチラから
 →　[https://git-scm.com/](https://git-scm.com/)
@@ -16,10 +19,11 @@
 
 > Gitを使ったプロジェクト管理サービス
 
-![[Pasted image 20260719164721.png|536]]
+![alt text](https://github.com/OnTimeEngineerPicaneru/WebAppDocument/blob/main/%E6%8E%88%E6%A5%AD%E8%B3%87%E6%96%99/Git%E3%83%BBGitHub%E3%81%A8%E3%81%AF%EF%BC%9F/Pasted%20image%2020260719164721.png)
 
 Gitのリポジトリ（プロジェクト・フォルダ）をクラウド上で管理・共有するためのサービスです。チームでの共同開発やコード管理、レビューなどができます。
-![[Pasted image 20260719164749.png|368]]
+
+![alt text](https://github.com/OnTimeEngineerPicaneru/WebAppDocument/blob/main/%E6%8E%88%E6%A5%AD%E8%B3%87%E6%96%99/Git%E3%83%BBGitHub%E3%81%A8%E3%81%AF%EF%BC%9F/Pasted%20image%2020260719164749.png)
 
 ## GitとGitHubの比較
 
